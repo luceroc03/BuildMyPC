@@ -26,15 +26,15 @@ public class PC {
         return motherboard;
     }
 
+    public void setTheCase(Case theCase) {
+        this.theCase = theCase;
+    }
 
+    public void setMonitor(Monitor monitor) {
+        this.monitor = monitor;
+    }
 
-
-
-
-
-
-
-
-
-
+    public void setMotherboard(Motherboard motherboard) {
+        this.motherboard = motherboard;
+    }
 }
