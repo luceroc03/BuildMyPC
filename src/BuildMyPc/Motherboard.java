@@ -32,7 +32,59 @@ public class Motherboard {
         this.maxMemorySupported = maxMemorySupported;
     }
 
+    public String getModel() {
+        return model;
+    }
 
+    public void setModel(String model) {
+        this.model = model;
+    }
 
+    public String getFormFactor() {
+        return formFactor;
+    }
 
+    public void setFormFactor(String formFactor) {
+        this.formFactor = formFactor;
+    }
+
+    public String getProcessorSocket() {
+        return processorSocket;
+    }
+
+    public void setProcessorSocket(String processorSocket) {
+        this.processorSocket = processorSocket;
+    }
+
+    public String getOperatingSystem() {
+        return operatingSystem;
+    }
+
+    public void setOperatingSystem(String operatingSystem) {
+        this.operatingSystem = operatingSystem;
+    }
+
+    public int getPciSlots() {
+        return pciSlots;
+    }
+
+    public void setPciSlots(int pciSlots) {
+        this.pciSlots = pciSlots;
+    }
+
+    public int getMemorySlots() {
+        return memorySlots;
+    }
+
+    public void setMemorySlots(int memorySlots) {
+        this.memorySlots = memorySlots;
+    }
+
+    public int getMaxMemorySupported() {
+        return maxMemorySupported;
+    }
+
+    public void setMaxMemorySupported(int maxMemorySupported) {
+        this.maxMemorySupported = maxMemorySupported;
+    }
 }
