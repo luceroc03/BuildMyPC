@@ -1,10 +1,6 @@
 package BuildMyPc;
 
-import java.awt.*;
 
-/**
- *
- */
 public class Case {
 
     private String model;
@@ -21,6 +17,38 @@ public class Case {
 
     }
 
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public String getMaterial() {
+        return material;
+    }
+
+    public void setMaterial(String material) {
+        this.material = material;
+    }
+
+    public Dimension getDimension() {
+        return dimension;
+    }
+
+    public void setDimension(Dimension dimension) {
+        this.dimension = dimension;
+    }
+
     public void pressPowerButton(){
         System.out.println("Case class: Press the power button - Pressed ");
     }
@@ -30,9 +58,3 @@ public class Case {
 
 
 }
-
-
-
-
-
-
